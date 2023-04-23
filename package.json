@@ -1,0 +1,17 @@
+{
+  "name": "@siddharth2500/learning-to-package",
+  "version": "1.0.1",
+  "description": "This repository is to learn NPM Packeges",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "url": "https://github.com/Siddharth2500/learning-to-package.git"
+  },
+  "author": "Siddharth",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^29.5.0"
+  }
+}
