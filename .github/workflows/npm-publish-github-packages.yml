@@ -1,4 +1,6 @@
-name: Publishing packages to GitHub
+name: Publishing
+packages 
+to GitHub
 	
 
 	on: [push]
@@ -26,8 +28,8 @@ name: Publishing packages to GitHub
 	      - uses: actions/checkout@v3
 	      - uses: actions/setup-node@v3
 	        with:
-	          node-version: 16
+	          node-version: 18
 	          registry-url: https://npm.pkg.github.com/
-	      - run: npm publish
+	      - run: npm publish --@siddharth2500:registry=https://npm.pkg.github.com/
 	        env:
 	          NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
