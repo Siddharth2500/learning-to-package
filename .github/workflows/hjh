@@ -1,9 +1,4 @@
-name: Publishing
-packages 
-to GitHub
-	
-
-	on: [push]
+on: [push]
 	
 
 	jobs:
